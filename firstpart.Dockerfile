@@ -6,9 +6,9 @@ RUN apt-get update -yq \
 && apt-get install nodejs -yq \
 && apt-get clean -y
 
-ADD . ../WIK-DPS-TP01/
+ADD . ../WIK-DPS-TP02/
 
-WORKDIR /WIK-DPS-TP01
+WORKDIR /WIK-DPS-TP02/
 
 RUN npm install
 
